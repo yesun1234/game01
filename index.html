@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="./common/css/font.css" />
+    <title>QR콘텐츠</title>
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+      your-component {
+        display: block;
+        position: relative;
+        width: 80%;
+        height: 80%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <your-component></your-component>
+
+    <template id="class--content">
+      <div id="classStyudyContent">
+        <!-- Content -->
+        <div id="wrap" class="page">
+          <div id="container">
+            <!-- 변경되는 컨텐츠 시작 -->
+            <div class="page_title">
+              <span class="dot"></span>
+              <span>
+                단어와 그 뜻풀이가 알맞게 연결된 음실을 골라, 차림표에 표시해 보자.
+              </span>
+            </div>
+
+            <div class="quiz_area">
+              <div class="quiz_txt">
+                <button class="reset_btn" onclick="reset()">다시 풀기</button>
+                <div class="quiz q1 correct" data-match="1">
+                  <div class="question">
+                    <img src="./img/1.png" alt="">
+                    <span>의미: 말이나 글의 뜻.</span>
+                  </div>
+                  <div class="answer">
+                  </div>
+                </div>
+                <div class="quiz q2 correct" data-match="2">
+                  <div class="question">
+                    <img src="./img/2.png" alt="">
+                    <span>화자: 말하는 사람.</span>
+                  </div>
+                  <div class="answer">
+                  </div>
+                </div>
+                <div class="quiz q3 incorrect" data-match="3">
+                  <div class="question">
+                    <img src="./img/3.png" alt="">
+                    <span>맥락: 밀어 생각하여 논함.</span>
+                  </div>
+                  <div class="answer">
+                  </div>
+                </div>
+                <div class="quiz q4 incorrect" data-match="4">
+                  <div class="question">
+                    <img src="./img/4.png" alt="">
+                    <span>추론: 사물 등이 서로 이어져<br /> 있는 관계나 연관.</span>
+                  </div>
+                  <div class="answer">
+                  </div>
+                </div>
+                <div class="quiz q5 correct" data-match="5">
+                  <div class="question">
+                    <img src="./img/5.png" alt="">
+                    <span>설득: 상대편이 이쪽 편의 이야기를 <br />따르도록 여러가지로 깨우쳐 말함.</span>
+                  </div>
+                  <div class="answer">
+                  </div>
+                </div>     
+              </div>        
+            
+              <div class="pwd_wrapper">
+                <span>주문</span>
+                <ul>
+                  <li class="pwd q1" data-num="1">떡볶이<span><img src="./img/checkbox.png" alt=""></span> </li>
+                  <li class="pwd q2" data-num="2">계란말이 <span><img src="./img/checkbox.png" alt=""></span></li>
+                  <li class="pwd q3" data-num="3">국수 <span><img src="./img/checkbox.png" alt=""></span></li>
+                  <li class="pwd q4" data-num="4">비빔밥 <span><img src="./img/checkbox.png" alt=""></span></li>
+                  <li class="pwd q5" data-num="5">떡갈비 <span><img src="./img/checkbox.png" alt=""></span></li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+            <!-- 완성 팝업 -->
+            <div class="ui_pop" data-pop="finish">
+              <div class="inner">
+                <div class="pop_ct">
+                  <h3>주문 완료</h3>
+                </div>
+              </div>
+            </div>
+            <!-- 다시도전 팝업 -->
+            <div class="ui_pop" data-pop="tryAgain">
+              <div class="inner">
+                <div class="pop_ct">
+                  <h3>주문 실패</h3>
+                </div>
+              </div>
+            </div>
+            <!-- 변경되는 컨텐츠 끝 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 복수개의 스타일 가능 -->
+      <link rel="stylesheet" type="text/css" href="./common/css/common.css" />
+      <link rel="stylesheet" type="text/css" href="./css/common.css" />
+
+      <!-- 복수개의 스크립트 파일 가능 -->
+      <script type="text/javascript" src="./common/js/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="./common/js/base.js"></script>
+      <script type="text/javascript" src="./common/js/view.js"></script>
+      <script type="text/javascript" src="./common/js/lib.js"></script>
+      <script type="text/javascript" src="./common/js/audioPlayer.js"></script>
+      <script type="text/javascript" src="./common/js/common.js"></script>
+      <script type="text/javascript" src="./js/sound.js"></script>
+      <script type="text/javascript" src="./js/scripts.js"></script>
+    </template>
+
+    <script type="module" src="./common/js/shadow-dom-your.js"></script>
+    <!-- Page js -->
+  </body>
+</html>

@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* font */
+
+@font-face {
+  font-family: 'DXHeSJStd';
+  /* src: url('../fonts/DXHeSJStd-M.eot') format('embedded-opentype'), url('../fonts/DXHeSJStd-M.woff') format('woff'), url('../fonts/DXHeSJStd-M.ttf') format('truetype'), url('../fonts/DXHeSJStd-M.otf') format('opentype'); */
+  /* src: url('../fonts/DXMedium.ttf') format('truetype'), url('../fonts/DXStdMedium.otf') format('opentype');
+   */
+  src: url('../fonts/DXHSMedium.ttf') format('truetype'), url('../fonts/DXHSMedium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OTOmniGothicH';
+  src: url('../fonts/OTOmniGothicH.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Noto Sans KR */
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url('../fonts/NotoSansKR-Light.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url('../fonts/NotoSansKR-DemiLight.woff2') format('woff2'), url('../fonts/NotoSansKR-DemiLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url('../fonts/NotoSansKR-Regular.woff2') format('woff2'), url('../fonts/NotoSansKR-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url('../fonts/NotoSansKR-Medium.woff2') format('woff2'), url('../fonts/NotoSansKR-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  src: url('../fonts/NotoSansKR-Bold.woff2') format('woff2'), url('../fonts/NotoSansKR-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Cafe24Ssurroun */
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('../fonts/Cafe24Ssurround-v2.0.woff2') format('woff2'), url('../fonts/Cafe24Ssurround-v2.0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* KoPubWorldDotum */
+@font-face {
+  font-family: 'KoPubWorldDotum';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/KoPubWorldDotumLight.woff2') format('woff2'), url('../fonts/KoPubWorldDotumLight.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoPubWorldDotum';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/KoPubWorldDotumMedium.woff2') format('woff2'), url('../fonts/KoPubWorldDotumMedium.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoPubWorldDotum';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/KoPubWorldDotumBold.woff2') format('woff2'), url('../fonts/KoPubWorldDotumBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kiwi Maru';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/KiwiMaru-Medium.woff2') format('woff2'), url('../fonts/KiwiMaru-Medium.woff') format('woff');
+  font-display: swap;
+}
+/* Maplestory */
+@font-face {
+  font-family: 'Maplestory';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/NexonMaplestoryLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Maplestory';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/NexonMaplestoryBold.woff') format('woff');
+}
+
+/* 고등 돌림판 폰트 */
+@font-face {
+  font-family: 'OneMobile';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/ONE-Mobile-OTF-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/ONE-Mobile-POP.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Godo';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/GodoB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/LotteMartHappyBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GangwonEduSaeeum';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/GangwonEduSaeeum.woff2') format('woff2'), url('../fonts/GangwonEduSaeeum.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'KOTRA_BOLD-Bold';
+  src: url('../fonts/KOTRA_BOLD-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JALNAN';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Jalnan.woff') format('woff');
+}
+@font-face {
+  font-family: 'NanumSquareRoundB';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/NanumSquareRoundB.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BMJUA';
+  src: url('../fonts/BMJUA.woff') format('woff'), url('../fonts/BMJUA_otf.otf') format('opentype'), url('../fonts/BMJUA_ttf.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nanum JungHagSaeng';
+  src: url('../fonts/NanumJungHagSaeng.ttf') format('truetype');
+  font-weight: normal;
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'Ownglyph_ryurue-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryurue-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
